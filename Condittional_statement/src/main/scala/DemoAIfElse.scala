@@ -1,6 +1,12 @@
+import java.util.Date
 object DemoAIfElse {
   //main then press ctrl+space + enter
   def main(args: Array[String]): Unit = {
+
+
+
+    var date1 = new Date()
+    println(date1)
     val x = 4
 
     if (x > 5) {
